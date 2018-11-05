@@ -1,0 +1,5 @@
+*.bak
+*.txt
+.vs/
+.git/
+docs/

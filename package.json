@@ -1,0 +1,24 @@
+{
+  "name": "linebot",
+  "version": "1.0.0",
+  "description": "A fun line bot for everyone",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/test-botself.git"
+  },
+  "keywords": [
+    "line"
+  ],
+  "author": "Amar Fadil",
+  "license": "ISC",
+  "dependencies": {
+    "@line/bot-sdk": "^6.2.1",
+    "express": "^4.16.3",
+    "lodash": "^4.17.11",
+    "pg": "^7.4.3"
+  }
+}

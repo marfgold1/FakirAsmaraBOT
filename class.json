@@ -1,0 +1,425 @@
+[
+  {
+    "name": "Abdi",
+    "shortDesc": "Merupakan seorang penjaga terhormat kerajaan dengan tameng.",
+    "HP": 2900,
+    "skill": [
+      {
+        "sName": "Salipan",
+        "shortDesc": "Menebas lawan dengan pedangnya.",
+        "usage": 0,
+        "effect": "AT-80",
+        "buff": "",
+        "debuff": ""
+      },
+      {
+        "sName": "Ajimat",
+        "shortDesc": "Meningkatkan pertahanan untuk sementara waktu.",
+        "usage": 2,
+        "effect": "",
+        "buff": "ED80,2",
+        "debuff": ""
+      },
+      {
+        "sName": "Lempar Tameng",
+        "shortDesc": "Menyebabkan musuh tak bisa bergerak untuk beberapa saat.",
+        "usage": 2,
+        "item": "",
+        "effect": "AT-150",
+        "buff": "",
+        "debuff": "ST1"
+      },
+      {
+        "sName": "Serangan Balik",
+        "shortDesc": "Mengambil kesempatan untuk menyerang balik.",
+        "usage": 1,
+        "effect": "",
+        "buff": "ED50,1;HL30,1",
+        "debuff": ""
+      }
+    ]
+  },
+  {
+    "name": "Ksatria",
+    "shortDesc": "Tentara militer kerajaan",
+    "HP": 2600,
+    "skill": [
+      {
+        "sName": "Sabetan",
+        "shortDesc": "Menyabet musuhnya",
+        "usage": 0,
+        "effect": "AT-150",
+        "buff": "",
+        "debuff": ""
+      },
+      {
+        "sName": "Berkah",
+        "shortDesc": "Meningkatkan kekuatan",
+        "usage": 3,
+        "effect": "",
+        "buff": "AU25,1",
+        "debuff": ""
+      },
+      {
+        "sName": "Ketahanan",
+        "shortDesc": "Meningkatkan pertahanan.",
+        "usage": 0,
+        "effect": "",
+        "buff": "ED50,1;HL20,1",
+        "debuff": ""
+      },
+      {
+        "sName": "Trisandu",
+        "shortDesc": "Serangan menyebabkan pendarahan.",
+        "usage": 2,
+        "effect": "AT-200",
+        "buff": "",
+        "debuff": "BA-10,5"
+      },
+      {
+        "sName": "Pemecah Baja",
+        "shortDesc": "Kekuatan penuh dalam satu serangan",
+        "usage": 1,
+        "effect": "AT-500",
+        "buff": "",
+        "debuff": ""
+      }
+    ]
+  },
+  {
+    "name": "Pedangan",
+    "shortDesc": "Ahli pedang kerajaan",
+    "HP": 2000,
+    "skill": [
+      {
+        "sName": "Tebas",
+        "shortDesc": "Menebas musuhnya",
+        "usage": 0,
+        "effect": "AT-100",
+        "buff": "",
+        "debuff": "PD"
+      },
+      {
+        "sName": "Meditasi",
+        "shortDesc": "Tenaga dalam dari konsentrasi yang kuat",
+        "usage": 3,
+        "effect": "CL",
+        "buff": "",
+        "debuff": ""
+      },
+      {
+        "sName": "Bacok",
+        "shortDesc": "Menyebabkan musuh tak bisa bergerak untuk beberapa saat",
+        "usage": 2,
+        "effect": "AT-250",
+        "buff": "",
+        "debuff": "ST1;PD"
+      },
+      {
+        "sName": "Tikaman",
+        "shortDesc": "Kekuatan penikaman yang dalam dan kejam",
+        "usage": 2,
+        "effect": "AT-500",
+        "buff": "",
+        "debuff": "BA-10,2;PD"
+      }
+    ]
+  },
+  {
+    "name": "Pendekar",
+    "shortDesc": "Bertarung dengan kekuatan fisik",
+    "HP": 2100,
+    "skill": [
+      {
+        "sName": "Cakar Singa",
+        "shortDesc": "Menyerang dengan cakaran",
+        "usage": 0,
+        "effect": "AT-150",
+        "buff": "",
+        "debuff": ""
+      },
+      {
+        "sName": "Sayap Naga",
+        "shortDesc": "Menyerang dengan sedikit kuat",
+        "usage": 3,
+        "effect": "AP-5",
+        "buff": "",
+        "debuff": ""
+      },
+      {
+        "sName": "Serangan Dalam",
+        "shortDesc": "Menyerang dengan kuat",
+        "usage": 2,
+        "effect": "AP-10",
+        "buff": "",
+        "debuff": ""
+      },
+      {
+        "sName": "Tenaga Dalam",
+        "shortDesc": "Menyerang dengan sangat kuat",
+        "usage": 1,
+        "effect": "AP-15",
+        "buff": "",
+        "debuff": ""
+      }
+    ]
+  },
+  {
+    "name": "Malingan",
+    "shortDesc": "Pencuri ulung di kerajaan",
+    "HP": 2200,
+    "skill": [
+      {
+        "sName": "Keris",
+        "shortDesc": "Menyerang dengan keris pusaka",
+        "usage": 0,
+        "effect": "AT-70",
+        "buff": "",
+        "debuff": "BA-50,3"
+      },
+      {
+        "sName": "Pisau Racun",
+        "shortDesc": "Melemparkan pisau beracun",
+        "usage": 2,
+        "effect": "AT-100",
+        "buff": "",
+        "debuff": "BA-50,2"
+      },
+      {
+        "sName": "Titik Buta",
+        "shortDesc": "Menyerang titik buta musuh",
+        "usage": 2,
+        "effect": "AT-300",
+        "buff": "",
+        "debuff": "PD"
+      },
+      {
+        "sName": "Lemparan",
+        "shortDesc": "Melempar musuh dengan kuat",
+        "usage": 1,
+        "effect": "AP-20",
+        "buff": "",
+        "debuff": ""
+      },
+      {
+        "sName": "Sandera",
+        "shortDesc": "Musuh tak bisa bergerak untuk sementara waktu",
+        "usage": 1,
+        "effect": "",
+        "buff": "",
+        "debuff": "ST3"
+      }
+    ]
+  },
+  {
+    "name": "Pawangni",
+    "shortDesc": "Pawang ahli kerajaan",
+    "HP": 2000,
+    "skill": [
+      {
+        "sName": "Bola Api",
+        "shortDesc": "Menembakkan bola api",
+        "usage": 0,
+        "effect": "AT-150",
+        "buff": "",
+        "debuff": "BA-10,2"
+      },
+      {
+        "sName": "Jarum Es",
+        "shortDesc": "Membuat musuh tak bisa bergerak selama beberapa giliran",
+        "usage": 5,
+        "effect": "AT-50",
+        "buff": "",
+        "debuff": "ST1"
+      },
+      {
+        "sName": "Badai Petir",
+        "shortDesc": "Meningkatkan kekuatan",
+        "usage": 2,
+        "effect": "",
+        "buff": "AU25,1",
+        "debuff": ""
+      },
+      {
+        "sName": "Jeruji",
+        "shortDesc": "Menghilangkan satu kekuatan musuh",
+        "usage": 1,
+        "effect": "",
+        "buff": "",
+        "debuff": "RS"
+      }
+    ]
+  },
+  {
+    "name": "Mbah Sri",
+    "shortDesc": "Ahli sihir yang terkenal",
+    "HP": 1900,
+    "skill": [
+      {
+        "sName": "Nyala Api",
+        "shortDesc": "Menyerang dengan api yang menyala",
+        "usage": 0,
+        "effect": "AT-100",
+        "buff": "",
+        "debuff": ""
+      },
+      {
+        "sName": "Hampa",
+        "shortDesc": "Menyebabkan musuh tak bisa menyerang untuk sementara waktu",
+        "usage": 1,
+        "effect": "",
+        "buff": "",
+        "debuff": "BL1"
+      },
+      {
+        "sName": "Santet",
+        "shortDesc": "Menyebabkan pendarahan",
+        "usage": 3,
+        "effect": "",
+        "buff": "",
+        "debuff": "BA-10,10"
+      },
+      {
+        "sName": "Kutukan",
+        "shortDesc": "Menghilangkan satu kali penggunaan kekuatan lawan",
+        "usage": 1,
+        "effect": "",
+        "buff": "",
+        "debuff": "RA1"
+      },
+      {
+        "sName": "Tukar Takdir",
+        "shortDesc": "Menukar darah dengan lawan",
+        "usage": 1,
+        "effect": "",
+        "buff": "",
+        "debuff": "RH"
+      }
+    ]
+  },
+  {
+    "name": "Panahan",
+    "shortDesc": "Pemanah jarak jauh kerajaan",
+    "HP": 2200,
+    "skill": [
+      {
+        "sName": "Anak Panah",
+        "shortDesc": "Memanah dengan anak panah",
+        "usage": 0,
+        "effect": "AT-75",
+        "buff": "",
+        "debuff": ""
+      },
+      {
+        "sName": "Mata Elang",
+        "shortDesc": "Menembak dari kejauhan",
+        "usage": 3,
+        "effect": "AT-250",
+        "buff": "",
+        "debuff": ""
+      },
+      {
+        "sName": "Rajawali",
+        "shortDesc": "Menyebabkan musuh tak bisa bergerak untuk sementara waktu",
+        "usage": 2,
+        "effect": "",
+        "buff": "",
+        "debuff": "ST1"
+      },
+      {
+        "sName": "Busur Takdir",
+        "shortDesc": "Mengerahkan kekuatan pada satu anak panah",
+        "usage": 1,
+        "effect": "AT-700",
+        "buff": "DP-20",
+        "debuff": "PD"
+      }
+    ]
+  },
+  {
+    "name": "Buron",
+    "shortDesc": "Kriminal yang paling dicari di kerajaan",
+    "HP": 2100,
+    "skill": [
+      {
+        "sName": "Taring Harimau",
+        "shortDesc": "Menyerang menggunakan taring harimau",
+        "usage": 0,
+        "effect": "AT-50",
+        "buff": "",
+        "debuff": "BA-10,5"
+      },
+      {
+        "sName": "Mengudara",
+        "shortDesc": "Meningkatkan serangan",
+        "usage": 5,
+        "effect": "AT-80",
+        "buff": "AU30,2",
+        "debuff": ""
+      },
+      {
+        "sName": "Inti Kematian",
+        "shortDesc": "Lebih meningkatkan serangan untuk satu kali serang",
+        "usage": 1,
+        "effect": "",
+        "buff": "AU50,1",
+        "debuff": ""
+      },
+      {
+        "sName": "Penghancur Pamungkas",
+        "shortDesc": "Menghancurkan apapun yang ada di depannya",
+        "usage": 3,
+        "effect": "AT-250",
+        "buff": "",
+        "debuff": "PD"
+      },
+      {
+        "sName": "Dorongan Maut",
+        "shortDesc": "Mendorong musuh hingga mengakibatkan pendarahan",
+        "usage": 1,
+        "effect": "AT-700",
+        "buff": "DP-10",
+        "debuff": "BA-10,1;PD"
+      }
+    ]
+  },
+  {
+    "name": "Jawara",
+    "shortDesc": "Ahli bela diri terkenal di kerajaan",
+    "HP": 2000,
+    "skill": [
+      {
+        "sName": "Api Liar",
+        "shortDesc": "Menyerang bagaikan gelora api",
+        "usage": 0,
+        "effect": "AT-100",
+        "buff": "",
+        "debuff": ""
+      },
+      {
+        "sName": "Serapah",
+        "shortDesc": "Mengambil darah musuh",
+        "usage": 2,
+        "effect": "AT-222",
+        "buff": "HP222,1",
+        "debuff": ""
+      },
+      {
+        "sName": "Kegulitaan",
+        "shortDesc": "Menyebabkan musuh tak bisa menyerang untuk sementara waktu",
+        "usage": 2,
+        "effect": "",
+        "buff": "",
+        "debuff": "BL2"
+      },
+      {
+        "sName": "Amukan",
+        "shortDesc": "Menyerang dengan kekuatan penuh",
+        "usage": 1,
+        "effect": "AT-800",
+        "buff": "HP-20,14",
+        "debuff": "BA-50,5"
+      }
+    ]
+  }
+]

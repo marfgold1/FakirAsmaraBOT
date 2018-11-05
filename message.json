@@ -1,0 +1,94 @@
+{
+  "classCarousel": {
+    "type": "template",
+    "altText": "Class list ",
+    "template": {
+      "type": "carousel",
+      "actions": [],
+      "columns": []
+    }
+  },
+  "actionButton": {
+    "text": "Tekan tombol ini untuk mendapatkan giliran!",
+    "actions": [
+      {
+        "type": "postback",
+        "label": "ACTION",
+        "text": "!ACTION",
+        "data": "act&"
+      }
+    ]
+  },
+  "classTemplate": {
+    "text": "A friendly templar\nHP: 2900",
+    "actions": [
+      {
+        "type": "message",
+        "label": "Pilih",
+        "text": "!edit class "
+      }
+    ]
+  },
+  "skillTemplate": {
+    "text": "A friendly ",
+    "actions": [
+      {
+        "type": "postback",
+        "label": "Pilih",
+        "data": "Data 1"
+      }
+    ]
+  },
+  "simpleText": {
+    "type": "text",
+    "text": ""
+  },
+  "skillUserTemplate": {
+    "index": -1,
+    "usage": 0
+  },
+  "userPVPTemplate": {
+    "userId": "",
+    "displayName": "",
+    "class": 0,
+    "health": 0,
+    "effect": [
+      "",
+      ""
+    ],
+    "skillUsage": []
+  },
+  "userPartyTemplate": {
+    "userId": "",
+    "team": 0,
+    "displayName": "",
+    "class":  0,
+    "health": 0,
+    "effect": "",
+    "skillAvailable": []
+  },
+  "roomTemplate": {
+    "roomId": "",
+    "roomType": 0,
+    "turn": "",
+    "turnId":  0,
+    "turnAmount":1,
+    "users": [],
+    "timeout": null
+  },
+  "roomInvitation": {
+    "type": "template",
+    "altText": "Undangan bermain ",
+    "template": {
+      "type": "buttons",
+      "actions": [
+        {
+          "type": "message",
+          "label": "Join ",
+          "text": "!join"
+        }
+      ],
+      "text": ""
+    }
+  }
+}
