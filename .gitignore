@@ -3,3 +3,4 @@
 .vs/
 .git/
 docs/
+node_modules/
