@@ -2,4 +2,9 @@
 *.txt
 .vs/
 .git/
+<<<<<<< HEAD
 node_modules/
+=======
+docs/
+node_modules/
+>>>>>>> 24cb1a28172d77d866e9374bf54fb94b5f68be7e
